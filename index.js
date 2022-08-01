@@ -5,6 +5,7 @@ const PORT = process.env.PORT || 5001
 const typeDefs = gql`
   type Product {
     id: Int
+    name: String
     price: Int
     description: String
     sku: String
